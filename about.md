@@ -6,9 +6,9 @@ title: About
 
 ---
 
-**Matt Lovaglio** is a Brooklyn NYC based lover-of-technology. He began work in search engine marketing, but his curiosity for the more technical side of things soon took over. Once he was able to say that *Text Editors* were exciting to use, it was clearly time to tumble down the rabbit hole.
+**Matt Lovaglio** is a Brooklyn based lover-of-technology. He began work in search engine marketing, but his curiosity for the more technical side of things soon took over. Once he was able to say that *Text Editors* were exciting to use, it was clearly time to tumble down the rabbit hole.
 
-He is currently working on a productivity Mac/iOS App for digital designers and developers. He also frequently writes/records tutorial content.
+He is currently working on a productivity Mac/iOS App for digital designers and developers. He also writes/records tutorial content.
 
 **Contact:**
 
