@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-###Works in search engine optimization. Sprouting front end developer by way of hobby and curiosity. In <span class="heart"><3</span> with GitHub's [Atom] (https://atom.io ) Text Editor.
+###Works in search engine optimization. Sprouting front end developer by way of hobby and curiosity. In <span class="heart"><3</span> with GitHub's [Atom Text Editor] (https://atom.io ).
 
 ---
 
