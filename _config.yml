@@ -12,7 +12,7 @@ relative_permalinks: true
 title:               Matt Lovaglio
 tagline:             'Articles, Theories & Ramblings'
 description:         'The blog of <a href="https://twitter.com/mattlovaglio" target="_blank">@mattlovaglio</a>.'
-url:                 http://www.mattlovaglio.com
+url:                 http://mattlovaglio.github.io
 baseurl:             /
 paginate:            5
 
