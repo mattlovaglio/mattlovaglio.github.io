@@ -10,7 +10,7 @@ relative_permalinks: true
 
 # Setup
 title:               MATT LOVAGLIO
-tagline:             ''
+tagline:             'Articles & Ramblings'
 description:         'The blog of <a href="https://twitter.com/mattlovaglio" target="_blank">@mattlovaglio</a>.'
 url:                 http://lanyon.getpoole.com
 baseurl:             /
