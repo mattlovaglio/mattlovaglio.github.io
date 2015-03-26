@@ -1,48 +1,38 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
-    <title>Matt Lovaglio | GitHub Page</title>
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
-    <style>
-      body {
-        color: #444;
-        font-family: arial, helvetica, verdana, sans-serif;
-      }
-      h1, h2, h3, h4, h5, h6
-       {
-        text-transform: uppercase;
-      }
-      a {
-        text-decoration: none;
-      }
-      .wrapper {
-        max-width: 800px;
-        margin: 150px auto;
-        padding: 20px;
-      }
-      .twitter-link {
-        color: #F2C762;
-        font-weight: bold;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- begin body wrapper -->
-    <div class="wrapper">
-      <h1>In Progress...</h1>
-      <p>
-        Thank you for viewing.
-      </p>
-      <p>
-        Unfortunately, the site isn't quite ready yet. In the meantime, stay in touch: <a class="twitter-link" href="https://twitter.com/mattlovaglio">@mattlovaglio</a>.
-      </p>
-    </div>
-  </body>
-</html>
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+

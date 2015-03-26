@@ -1,0 +1,26 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               MATT LOVAGLIO
+tagline:             ''
+description:         'The blog of <a href="https://twitter.com/mattlovaglio" target="_blank">@mattlovaglio</a>.'
+url:                 http://lanyon.getpoole.com
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              Matt Lovaglio
+  url:               https://twitter.com/mattlovaglio
+  email:             hello@mattlovaglio.com
+
+# Custom vars
+version:             1.0.0
