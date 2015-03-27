@@ -4,7 +4,7 @@ title: Moving From WordPress
 ---
 ## A Quick Note
 
-I recently decided that it was time to move away from WordPress. I think it's really great software and has an amazing community behind it. But as my understanding of web technologies grew to a more advanced level, I was beginning to see the subtle quirks that made WordPress a less suitable choice for me.
+I recently decided that it was time to move away from WordPress. I think it's really great software and has an amazing community behind it. But as my understanding of web technologies grew to a more advanced level, I was beginning to see the subtle quirks that made WordPress a less suitable choice for me moving forward.
 
 ### Here are a few reasons:
 
