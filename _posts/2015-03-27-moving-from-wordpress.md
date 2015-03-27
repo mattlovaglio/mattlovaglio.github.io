@@ -13,12 +13,12 @@ I recently decided that it was time to move away from WordPress. I think it's re
 * Performance Quirks.
 * Tooling workflows were not available. Or at least using them in this context felt ridiculous.
 * Bloated source code.
-* Specific hosting requirements. Plus hosting cost.
+* Specific hosting requirements. Hosting cost.
 * Not easy to back-up.
 
 I wanted to continue blogging and maintain a high level of control over my site, which is why something like Jekyll made sense.
 
-This particular blog is built with [Jekyll](http://jekyllrb.com), [Poole](http://getpoole.com) and hosted on [GitHub Pages](https://pages.github.com). I've altered a few things, but for the most part it's "themed", much like a WordPress theme but not nearly as restricting. The theme that's being used is called [Lanyon](https://github.com/poole/lanyon), which is actually an official theme built by the maker of Poole, [@mdo](http://markdotto.com). He also happens to be the dude that made [Bootstrap](http://getbootstrap.com).
+This particular blog is built with [Jekyll](http://jekyllrb.com), [Poole](http://getpoole.com) and hosted on [GitHub Pages](https://pages.github.com). I've altered a few things, but for the most part it's themed, much like a WordPress theme but not nearly as restricting. The theme that's being used is called [Lanyon](https://github.com/poole/lanyon), which is actually an official theme built by the maker of Poole: [@mdo](http://markdotto.com). He also happens to be the dude that made [Bootstrap](http://getbootstrap.com).
 
 ## As for the back end of things...
 
