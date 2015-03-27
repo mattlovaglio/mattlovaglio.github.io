@@ -9,7 +9,7 @@ I recently decided that it was time to move away from WordPress. I think it's re
 ### Here are a few reasons:
 
 * Extensibility is bound by the platform's ecosystem. Generally speaking.
-* Making themes, despite there being boilerplates, starting points and online resources readily available, was just not pleasurable for me.
+* Making themes was just not pleasurable for me.
 * Performance Quirks.
 * Tooling workflows were not available. Or at least using them in this context felt ridiculous.
 * Bloated source code.
