@@ -12,7 +12,7 @@ He is currently working on a productivity Mac/iOS App for digital designers and 
 
 **Contact:**
 
-Digital carrier pigeon: <a href="mailto:hello@mattlovaglio.com">hello@mattlovaglio.com</a>.
+Digital carrier pigeon: <a href="mailto:hello@mattlovaglio.com">hello@mattlovaglio.com</a>
 
 See what I'm building: [GitHub](https://github.com/mattlovaglio)
 
