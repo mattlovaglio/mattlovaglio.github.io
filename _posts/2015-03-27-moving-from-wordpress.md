@@ -33,7 +33,7 @@ I recommend that you look into Jekyll.
 Check out this video from the awesome YouTube channel [DevTips](https://www.youtube.com/user/DevTipsForDesigners):
 
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>-->
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>
 
 <br>
 **-Matt**
