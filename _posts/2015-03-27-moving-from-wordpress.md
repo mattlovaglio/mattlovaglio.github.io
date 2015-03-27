@@ -18,17 +18,17 @@ I recently decided that it was time to move away from WordPress. I think it's re
 
 I wanted to continue blogging and maintain a high level of control over my site, which is why something like Jekyll made sense.
 
-###This blog:
-
 This particular blog is built with [Jekyll](http://jekyllrb.com), [Poole](http://getpoole.com) and hosted on [GitHub Pages](https://pages.github.com). I've altered a few things, but for the most part it's "themed", much like a WordPress theme but not nearly as restricting. The theme that's being used is called [Lanyon](https://github.com/poole/lanyon), which is actually an official theme built by the maker of Poole, [@mdo](http://markdotto.com). He also happens to be the dude that made [Bootstrap](http://getbootstrap.com).
+
+## As for the back end of things...
 
 As for the back end of things, posts are written in [Markdown](http://daringfireball.net/projects/markdown/syntax). And there is essentially no GUI. Learning how to use Jekyll requires some lite terminal usage, learning aspects about the [Liquid](https://github.com/Shopify/liquid) templating language, Markdown and a base knowledge of HTML & CSS. For someone used to a GUI back end, it might seem a bit involved. But if you can get past that (it's not difficult, trust me), you will be pleasantly surprised by what you can do.
 
-Also, if you're worried about any tools that you'll need to purchase, you really just need a decent text editor. I recommend GitHub's [Atom Text Editor](https://atom.io). Other than that, you'll use the terminal (or Windows equivalent), [Git](http://git-scm.com), the GitHub app ([Mac](https://mac.github.com) or [Windows](https://windows.github.com)) and a browser. All of which are in fact, free.
+Also, if you're worried about any tools that you'll need to purchase, you really just need a decent text editor. I recommend GitHub's [Atom Text Editor](https://atom.io). Other than that, you'll use the terminal (or Windows equivalent), [Git](http://git-scm.com), the GitHub app ([Mac](https://mac.github.com) or [Windows](https://windows.github.com)) and a browser. All of which are in fact, free. Oh I almost forgot to mention that you can host your site for free as well, using GitHub Pages.
 
 I'll probably write some articles on this in the near future.
 
-I recommend that you look into Jekyll. Oh I almost forgot to mention that you can host your site for free, using GitHub Pages.
+I recommend that you look into Jekyll.
 
 Check out this video from the awesome YouTube channel [DevTips](https://www.youtube.com/user/DevTipsForDesigners):
 
