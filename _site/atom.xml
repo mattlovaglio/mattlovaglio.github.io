@@ -4,14 +4,14 @@
  <title>Matt Lovaglio</title>
  <link href="http://www.mattlovaglio.com/atom.xml" rel="self"/>
  <link href="http://www.mattlovaglio.com/"/>
- <updated>2015-03-26T21:10:38-04:00</updated>
+ <updated>2015-03-26T21:18:29-04:00</updated>
  <id>http://www.mattlovaglio.com</id>
  <author>
    <name>Matt Lovaglio</name>
    <email>hello@mattlovaglio.com</email>
  </author>
 
-
+ 
  <entry>
    <title>First Post</title>
    <link href="http://www.mattlovaglio.com/2015/03/25/first-post/"/>
@@ -22,7 +22,7 @@
 &lt;p&gt;This is my first post.&lt;/p&gt;
 </content>
  </entry>
-
+ 
  <entry>
    <title>Introducing Lanyon</title>
    <link href="http://www.mattlovaglio.com/2014/01/02/introducing-lanyon/"/>
@@ -67,7 +67,7 @@
 &lt;p&gt;Thanks!&lt;/p&gt;
 </content>
  </entry>
-
+ 
  <entry>
    <title>Example content</title>
    <link href="http://www.mattlovaglio.com/2014/01/01/example-content/"/>
@@ -197,7 +197,7 @@
 &lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
-
+ 
  <entry>
    <title>What's Jekyll?</title>
    <link href="http://www.mattlovaglio.com/2013/12/31/whats-jekyll/"/>
@@ -214,6 +214,6 @@
 &lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
-
+ 
 
 </feed>
