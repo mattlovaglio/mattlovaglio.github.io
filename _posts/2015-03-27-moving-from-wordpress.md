@@ -28,8 +28,13 @@ Also, if you're worried about any tools that you'll need to purchase, you really
 
 I'll probably write some articles on this in the near future.
 
-I recommend that you look into Jekyll. Oh I almost forgot to mention that you can host your site for free, using GitHub Pages.  
+I recommend that you look into Jekyll. Oh I almost forgot to mention that you can host your site for free, using GitHub Pages.
 
+Check out this video from the awesome YouTube channel [DevTips](https://www.youtube.com/user/DevTipsForDesigners):
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>
+
+<br>
 **-Matt**
 
 P.S. I'm in the middle of adding a commenting system on here. In the meantime, if you have any questions for me, you can hit me up via [email](http://www.mattlovaglio.com/about).

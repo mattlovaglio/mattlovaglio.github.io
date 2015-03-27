@@ -4,7 +4,7 @@
  <title>Matt Lovaglio</title>
  <link href="http://www.mattlovaglio.com/atom.xml" rel="self"/>
  <link href="http://www.mattlovaglio.com/"/>
- <updated>2015-03-27T00:49:45-04:00</updated>
+ <updated>2015-03-27T17:21:06-04:00</updated>
  <id>http://www.mattlovaglio.com</id>
  <author>
    <name>Matt Lovaglio</name>
@@ -13,13 +13,48 @@
 
  
  <entry>
-   <title>First Post</title>
-   <link href="http://www.mattlovaglio.com/2015/03/25/first-post/"/>
-   <updated>2015-03-25T00:00:00-04:00</updated>
-   <id>http://www.mattlovaglio.com/2015/03/25/first-post</id>
-   <content type="html">&lt;h2&gt;Hello there.&lt;/h2&gt;
+   <title>Moving From WordPress</title>
+   <link href="http://www.mattlovaglio.com/2015/03/27/moving-from-wordpress/"/>
+   <updated>2015-03-27T00:00:00-04:00</updated>
+   <id>http://www.mattlovaglio.com/2015/03/27/moving-from-wordpress</id>
+   <content type="html">&lt;h2&gt;A Quick Note&lt;/h2&gt;
 
-&lt;p&gt;This is my first post.&lt;/p&gt;
+&lt;p&gt;I recently decided that it was time to move away from WordPress. I think it&amp;#39;s really great software and has an amazing community behind it. But as my understanding of web technologies grew to a more advanced level, I was beginning to see the subtle quirks that made WordPress a less suitable choice for me moving forward.&lt;/p&gt;
+
+&lt;h3&gt;Here are a few reasons:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Extensibility is bound by the platform&amp;#39;s ecosystem. Generally speaking.&lt;/li&gt;
+&lt;li&gt;Making themes was just not pleasurable for me.&lt;/li&gt;
+&lt;li&gt;Performance Quirks.&lt;/li&gt;
+&lt;li&gt;Tooling workflows were not available. Or at least using them in this context felt ridiculous.&lt;/li&gt;
+&lt;li&gt;Bloated source code.&lt;/li&gt;
+&lt;li&gt;Specific hosting requirements. Plus hosting cost.&lt;/li&gt;
+&lt;li&gt;Not easy to back-up.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I wanted to continue blogging and maintain a high level of control over my site, which is why something like Jekyll made sense.&lt;/p&gt;
+
+&lt;h3&gt;This blog:&lt;/h3&gt;
+
+&lt;p&gt;This particular blog is built with &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt; and hosted on &lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt;. I&amp;#39;ve altered a few things, but for the most part it&amp;#39;s &amp;quot;themed&amp;quot;, much like a WordPress theme but not nearly as restricting. The theme that&amp;#39;s being used is called &lt;a href=&quot;https://github.com/poole/lanyon&quot;&gt;Lanyon&lt;/a&gt;, which is actually an official theme built by the maker of Poole, &lt;a href=&quot;http://markdotto.com&quot;&gt;@mdo&lt;/a&gt;. He also happens to be the dude that made &lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As for the back end of things, posts are written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt;. And there is essentially no GUI. For someone used to a GUI back end, it might seem a bit involved. Learning how to use Jekyll requires some lite terminal usage, learning aspects about the &lt;a href=&quot;https://github.com/Shopify/liquid&quot;&gt;Liquid&lt;/a&gt; templating language, Markdown and a base knowledge of HTML &amp;amp; CSS. But if you can get past that (it&amp;#39;s not difficult, trust me), you will be pleasantly surprised by what you can do.&lt;/p&gt;
+
+&lt;p&gt;Also, if you&amp;#39;re worried about any tools that you&amp;#39;ll need to purchase, you really just need a decent text editor. I recommend GitHub&amp;#39;s &lt;a href=&quot;https://atom.io&quot;&gt;Atom Text Editor&lt;/a&gt;. Other than that, you&amp;#39;ll use the terminal (or Windows equivalent), &lt;a href=&quot;http://git-scm.com&quot;&gt;Git&lt;/a&gt;, the GitHub app (&lt;a href=&quot;https://mac.github.com&quot;&gt;Mac&lt;/a&gt; or &lt;a href=&quot;https://windows.github.com&quot;&gt;Windows&lt;/a&gt;) and a browser. All of which are in fact, free.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ll probably write some articles on this in the near future.&lt;/p&gt;
+
+&lt;p&gt;I recommend that you look into Jekyll. Oh I almost forgot to mention that you can host your site for free, using GitHub Pages.&lt;/p&gt;
+
+&lt;p&gt;Check out this video from the awesome YouTube channel &lt;a href=&quot;https://www.youtube.com/user/DevTipsForDesigners&quot;&gt;DevTips&lt;/a&gt;:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iWowJBRMtpc&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;strong&gt;-Matt&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;P.S. I&amp;#39;m in the middle of adding a commenting system on here. In the meantime, if you have any questions for me, you can hit me up via &lt;a href=&quot;http://www.mattlovaglio.com/about&quot;&gt;email&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
