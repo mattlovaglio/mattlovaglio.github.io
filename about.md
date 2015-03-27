@@ -14,7 +14,7 @@ He is currently working on a productivity Mac/iOS App for digital designers and 
 
 Digital carrier pigeon: <a href="mailto:hello@mattlovaglio.com">hello@mattlovaglio.com</a>
 
-See what I'm building: [GitHub](https://github.com/mattlovaglio)
+See what I'm building: [github.com/mattlovaglio](https://github.com/mattlovaglio)
 
 Hear what I'm saying: [@mattlovaglio](https://twitter.com/mattlovaglio)
 
