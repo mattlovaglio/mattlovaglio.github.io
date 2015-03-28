@@ -25,6 +25,14 @@ YouTube video being referenced here: [DevTips: Getting Started With Jekyll, The 
 
 Basic YouTube embed link for this video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>`
 
+This is what you'll get on mobile devices:
+
+---
+
+![example](/assets/images/example-issue.PNG)
+
+---
+
 This method doesn't work well.
 
 Lucky for you, it won't take much to fix this behavior.

@@ -4,7 +4,7 @@
  <title>Matt Lovaglio</title>
  <link href="http://www.mattlovaglio.com/atom.xml" rel="self"/>
  <link href="http://www.mattlovaglio.com/"/>
- <updated>2015-03-27T17:21:06-04:00</updated>
+ <updated>2015-03-27T22:04:32-04:00</updated>
  <id>http://www.mattlovaglio.com</id>
  <author>
    <name>Matt Lovaglio</name>
@@ -29,32 +29,126 @@
 &lt;li&gt;Performance Quirks.&lt;/li&gt;
 &lt;li&gt;Tooling workflows were not available. Or at least using them in this context felt ridiculous.&lt;/li&gt;
 &lt;li&gt;Bloated source code.&lt;/li&gt;
-&lt;li&gt;Specific hosting requirements. Plus hosting cost.&lt;/li&gt;
+&lt;li&gt;Specific hosting requirements. Hosting cost.&lt;/li&gt;
 &lt;li&gt;Not easy to back-up.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;I wanted to continue blogging and maintain a high level of control over my site, which is why something like Jekyll made sense.&lt;/p&gt;
 
-&lt;h3&gt;This blog:&lt;/h3&gt;
+&lt;p&gt;This particular blog is built with &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt; and hosted on &lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt;. I&amp;#39;ve altered a few things, but for the most part it&amp;#39;s themed, much like a WordPress theme but not nearly as restricting. The theme that&amp;#39;s being used is called &lt;a href=&quot;https://github.com/poole/lanyon&quot;&gt;Lanyon&lt;/a&gt;, which is actually an official theme built by the maker of Poole: &lt;a href=&quot;http://markdotto.com&quot;&gt;@mdo&lt;/a&gt;. He also happens to be the dude that made &lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;This particular blog is built with &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt; and hosted on &lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt;. I&amp;#39;ve altered a few things, but for the most part it&amp;#39;s &amp;quot;themed&amp;quot;, much like a WordPress theme but not nearly as restricting. The theme that&amp;#39;s being used is called &lt;a href=&quot;https://github.com/poole/lanyon&quot;&gt;Lanyon&lt;/a&gt;, which is actually an official theme built by the maker of Poole, &lt;a href=&quot;http://markdotto.com&quot;&gt;@mdo&lt;/a&gt;. He also happens to be the dude that made &lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;As for the back end of things...&lt;/h2&gt;
 
-&lt;p&gt;As for the back end of things, posts are written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt;. And there is essentially no GUI. For someone used to a GUI back end, it might seem a bit involved. Learning how to use Jekyll requires some lite terminal usage, learning aspects about the &lt;a href=&quot;https://github.com/Shopify/liquid&quot;&gt;Liquid&lt;/a&gt; templating language, Markdown and a base knowledge of HTML &amp;amp; CSS. But if you can get past that (it&amp;#39;s not difficult, trust me), you will be pleasantly surprised by what you can do.&lt;/p&gt;
+&lt;p&gt;As for the back end of things, posts are written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt;. And there is essentially no GUI. Learning how to use Jekyll requires some lite terminal usage, learning aspects about the &lt;a href=&quot;https://github.com/Shopify/liquid&quot;&gt;Liquid&lt;/a&gt; templating language, Markdown and a base knowledge of HTML &amp;amp; CSS. For someone used to a GUI back end, it might seem a bit involved. But if you can get past that (it&amp;#39;s not difficult, trust me), you will be pleasantly surprised by what you can do.&lt;/p&gt;
 
-&lt;p&gt;Also, if you&amp;#39;re worried about any tools that you&amp;#39;ll need to purchase, you really just need a decent text editor. I recommend GitHub&amp;#39;s &lt;a href=&quot;https://atom.io&quot;&gt;Atom Text Editor&lt;/a&gt;. Other than that, you&amp;#39;ll use the terminal (or Windows equivalent), &lt;a href=&quot;http://git-scm.com&quot;&gt;Git&lt;/a&gt;, the GitHub app (&lt;a href=&quot;https://mac.github.com&quot;&gt;Mac&lt;/a&gt; or &lt;a href=&quot;https://windows.github.com&quot;&gt;Windows&lt;/a&gt;) and a browser. All of which are in fact, free.&lt;/p&gt;
+&lt;p&gt;Also, if you&amp;#39;re worried about any tools that you&amp;#39;ll need to purchase, you really just need a decent text editor. I recommend GitHub&amp;#39;s &lt;a href=&quot;https://atom.io&quot;&gt;Atom Text Editor&lt;/a&gt;. Other than that, you&amp;#39;ll use the terminal (or Windows equivalent), &lt;a href=&quot;http://git-scm.com&quot;&gt;Git&lt;/a&gt;, the GitHub app (&lt;a href=&quot;https://mac.github.com&quot;&gt;Mac&lt;/a&gt; or &lt;a href=&quot;https://windows.github.com&quot;&gt;Windows&lt;/a&gt;) and a browser. All of which are in fact, free. Oh I almost forgot to mention that you can host your site for free as well, using GitHub Pages.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#39;ll probably write some articles on this in the near future.&lt;/p&gt;
 
-&lt;p&gt;I recommend that you look into Jekyll. Oh I almost forgot to mention that you can host your site for free, using GitHub Pages.&lt;/p&gt;
+&lt;p&gt;I recommend that you look into Jekyll.&lt;/p&gt;
 
 &lt;p&gt;Check out this video from the awesome YouTube channel &lt;a href=&quot;https://www.youtube.com/user/DevTipsForDesigners&quot;&gt;DevTips&lt;/a&gt;:&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iWowJBRMtpc&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;div class=&quot;video-container&quot;&gt;
+  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iWowJBRMtpc&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;br&gt;
 &lt;strong&gt;-Matt&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;P.S. I&amp;#39;m in the middle of adding a commenting system on here. In the meantime, if you have any questions for me, you can hit me up via &lt;a href=&quot;http://www.mattlovaglio.com/about&quot;&gt;email&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Making Embedded Content Responsive In Jekyll Posts</title>
+   <link href="http://www.mattlovaglio.com/2015/03/27/Making-Embedded-Content-Responsive-In-Jekyll-Posts/"/>
+   <updated>2015-03-27T00:00:00-04:00</updated>
+   <id>http://www.mattlovaglio.com/2015/03/27/Making-Embedded-Content-Responsive-In-Jekyll-Posts</id>
+   <content type="html">&lt;h2&gt;Embedded content in Jekyll posts acting wonky?&lt;/h2&gt;
+
+&lt;p&gt;If you are using Jekyll or thinking about using Jekyll for blogging you might want to consider how the content within Jekyll posts are rendered.&lt;/p&gt;
+
+&lt;p&gt;Some of the benefits of traditional content management systems are that they tend to have a GUI (graphical user interface) back-end and allow you to write and insert rich media much like you would a modern word processor. However a caveat of having this kind of functionality is you subscribe to the ways (or restrictions) of your specific CMS.&lt;/p&gt;
+
+&lt;h2&gt;Jekyll posts&lt;/h2&gt;
+
+&lt;p&gt;Blogging with Jekyll is awesome, but remember you write posts like you would write HTML &lt;em&gt;even though you&amp;#39;re using Markdown&lt;/em&gt;. Which means that you must sometimes consider how your content will be rendered, as if you were hand coding a blog post.&lt;/p&gt;
+
+&lt;p&gt;Things like embedding a YouTube video or Google Map require some additional strategy. That is if you&amp;#39;re using the iFrame method and want the content to be responsive.&lt;/p&gt;
+
+&lt;div class=&quot;message&quot;&gt;Some people will be ok with this method, and some people won&#39;t. If you have a more appropriate technique, share it in the comments or send me a msg. Keep in mind, if you&#39;re going to be using GitHub Pages &amp; Jekyll, you are not allowed to use plugins.&lt;/div&gt;
+
+&lt;p&gt;If you embed a YouTube video in a Jekyll post, as per the official YouTube instructions, you might notice that on an iPhone (or any mobile device) your embedded content spills out of current viewport. Not desirable. So as you can deduce, this method is not responsive friendly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The default YouTube embed instructions might look something like this:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;YouTube video being referenced here: &lt;a href=&quot;https://www.youtube.com/watch?v=iWowJBRMtpc&quot;&gt;DevTips: Getting Started With Jekyll, The Static Site Generator&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Basic YouTube embed link for this video: &lt;code&gt;&amp;lt;iframe width=&amp;quot;560&amp;quot; height=&amp;quot;315&amp;quot; src=&amp;quot;https://www.youtube.com/embed/iWowJBRMtpc&amp;quot; frameborder=&amp;quot;0&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This is what you&amp;#39;ll get on mobile devices:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/example-issue.PNG&quot; alt=&quot;example&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;This method doesn&amp;#39;t work well.&lt;/p&gt;
+
+&lt;p&gt;Lucky for you, it won&amp;#39;t take much to fix this behavior.&lt;/p&gt;
+
+&lt;h2&gt;Finding a solution&lt;/h2&gt;
+
+&lt;p&gt;I recently found a solution via &lt;a href=&quot;https://twitter.com/rachelmccollin&quot;&gt;@rachelmccollin&lt;/a&gt; in a &lt;a href=&quot;http://www.smashingmagazine.com&quot;&gt;Smashing Magazine&lt;/a&gt; post.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here are the article links:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.smashingmagazine.com/2014/02/27/making-embedded-content-work-in-responsive-design/&quot;&gt;Making embedded content work in responsive design&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://alistapart.com/article/creating-intrinsic-ratios-for-video&quot;&gt;Creating intrinsic ratios for video&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In the name of not taking credit for someone else&amp;#39;s article, I recommend reading the aforementioned links if you really want a more technical explanation. But for the sake of convenience, I&amp;#39;ll give you the &amp;quot;short and sweet&amp;quot; version here.&lt;/p&gt;
+
+&lt;h2&gt;Basic method&lt;/h2&gt;
+
+&lt;p&gt;Essentially what you have to do is put the iFrame embed code in a div with a class of &amp;quot;video-container&amp;quot; (or custom class name that would be appropriate for your project). Then style both that class and the nested iFrame as illustrated below.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Once again, these code snippets were taken from the above articles and are being displayed here purely for your convenience. I wholeheartedly give credit to their respective authors and original publications.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3&gt;Class styles:&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.video-container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;relative&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;padding-bottom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;56.25%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;padding-top&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;35px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;overflow&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;Nested iFrame styles:&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.video-container&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;iframe&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;absolute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You might want to not use &lt;code&gt;.video-container&lt;/code&gt; as a class name, because it is extremely broad. It is possible that the framework or css you are using/authoring may already have this class name reserved for other things. Consider using something more specific like: &lt;code&gt;.jekyll-youtube-module&lt;/code&gt; or another custom class name with a higher level of specificity.&lt;/p&gt;
+
+&lt;h2&gt;Some additional embedded content&lt;/h2&gt;
+
+&lt;p&gt;Besides YouTube videos, you might consider using this technique with other types of embedded content. I&amp;#39;ve tested this method successfully with the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.google.com/maps&quot;&gt;Goolge Maps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.google.com/maps/views/home?gl=us&quot;&gt;Google Views&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;They both render beautifully on mobile devices.&lt;/p&gt;
 </content>
  </entry>
  

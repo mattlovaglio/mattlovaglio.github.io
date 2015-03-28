@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- SEO profile-->
+  <meta name="description" content="Matt Lovaglio's blog. Brooklyn based front end developer, digital designer, search engine optimization personnel & online learning ethusiast.">
+  <meta name="keywords" content="Matt Lovaglio, Matthew Lovaglio, Blog, Article, Articles">
+  <meta name="author" content="Matt Lovaglio">
+
+  <title>
+    
+      Making Embedded Content Responsive In Jekyll Posts &middot; Matt Lovaglio
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54864113-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+
+  <body class="layout-reverse">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>The blog of <a href="https://twitter.com/mattlovaglio" target="_blank">@mattlovaglio</a>.</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/articles/">Articles</a>
+        
+      
+    
+      
+    
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2015. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Matt Lovaglio</a>
+            <small>Articles, Theories & Ramblings</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Making Embedded Content Responsive In Jekyll Posts</h1>
+  <span class="post-date">27 Mar 2015</span>
+  <h2>Embedded content in Jekyll posts acting wonky?</h2>
+
+<p>If you are using Jekyll or thinking about using Jekyll for blogging you might want to consider how the content within Jekyll posts are rendered.</p>
+
+<p>Some of the benefits of traditional content management systems are that they tend to have a GUI (graphical user interface) back-end and allow you to write and insert rich media much like you would a modern word processor. However a caveat of having this kind of functionality is you subscribe to the ways (or restrictions) of your specific CMS.</p>
+
+<h2>Jekyll posts</h2>
+
+<p>Blogging with Jekyll is awesome, but remember you write posts like you would write HTML <em>even though you&#39;re using Markdown</em>. Which means that you must sometimes consider how your content will be rendered, as if you were hand coding a blog post.</p>
+
+<p>Things like embedding a YouTube video or Google Map require some additional strategy. That is if you&#39;re using the iFrame method and want the content to be responsive.</p>
+
+<div class="message">Some people will be ok with this method, and some people won't. If you have a more appropriate technique, share it in the comments or send me a msg. Keep in mind, if you're going to be using GitHub Pages & Jekyll, you are not allowed to use plugins.</div>
+
+<p>If you embed a YouTube video in a Jekyll post, as per the official YouTube instructions, you might notice that on an iPhone (or any mobile device) your embedded content spills out of current viewport. Not desirable. So as you can deduce, this method is not responsive friendly.</p>
+
+<p><strong>The default YouTube embed instructions might look something like this:</strong></p>
+
+<p>YouTube video being referenced here: <a href="https://www.youtube.com/watch?v=iWowJBRMtpc">DevTips: Getting Started With Jekyll, The Static Site Generator</a></p>
+
+<p>Basic YouTube embed link for this video: <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iWowJBRMtpc&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</code></p>
+
+<p>This is what you&#39;ll get on mobile devices:</p>
+
+<hr>
+
+<p><img src="/assets/images/example-issue.PNG" alt="example"></p>
+
+<hr>
+
+<p>This method doesn&#39;t work well.</p>
+
+<p>Lucky for you, it won&#39;t take much to fix this behavior.</p>
+
+<h2>Finding a solution</h2>
+
+<p>I recently found a solution via <a href="https://twitter.com/rachelmccollin">@rachelmccollin</a> in a <a href="http://www.smashingmagazine.com">Smashing Magazine</a> post.</p>
+
+<p><strong>Here are the article links:</strong></p>
+
+<p><a href="http://www.smashingmagazine.com/2014/02/27/making-embedded-content-work-in-responsive-design/">Making embedded content work in responsive design</a></p>
+
+<p><a href="http://alistapart.com/article/creating-intrinsic-ratios-for-video">Creating intrinsic ratios for video</a></p>
+
+<p>In the name of not taking credit for someone else&#39;s article, I recommend reading the aforementioned links if you really want a more technical explanation. But for the sake of convenience, I&#39;ll give you the &quot;short and sweet&quot; version here.</p>
+
+<h2>Basic method</h2>
+
+<p>Essentially what you have to do is put the iFrame embed code in a div with a class of &quot;video-container&quot; (or custom class name that would be appropriate for your project). Then style both that class and the nested iFrame as illustrated below.</p>
+
+<p><em>Once again, these code snippets were taken from the above articles and are being displayed here purely for your convenience. I wholeheartedly give credit to their respective authors and original publications.</em></p>
+
+<h3>Class styles:</h3>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.video-container</span> <span class="p">{</span>
+    <span class="k">position</span><span class="o">:</span> <span class="k">relative</span><span class="p">;</span>
+    <span class="k">padding-bottom</span><span class="o">:</span> <span class="m">56.25%</span><span class="p">;</span>
+    <span class="k">padding-top</span><span class="o">:</span> <span class="m">35px</span><span class="p">;</span>
+    <span class="k">height</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+    <span class="k">overflow</span><span class="o">:</span> <span class="k">hidden</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<h3>Nested iFrame styles:</h3>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.video-container</span> <span class="nt">iframe</span> <span class="p">{</span>
+    <span class="k">position</span><span class="o">:</span> <span class="k">absolute</span><span class="p">;</span>
+    <span class="k">top</span><span class="o">:</span><span class="m">0</span><span class="p">;</span>
+    <span class="k">left</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+    <span class="k">width</span><span class="o">:</span> <span class="m">100%</span><span class="p">;</span>
+    <span class="k">height</span><span class="o">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<p>You might want to not use <code>.video-container</code> as a class name, because it is extremely broad. It is possible that the framework or css you are using/authoring may already have this class name reserved for other things. Consider using something more specific like: <code>.jekyll-youtube-module</code> or another custom class name with a higher level of specificity.</p>
+
+<h2>Some additional embedded content</h2>
+
+<p>Besides YouTube videos, you might consider using this technique with other types of embedded content. I&#39;ve tested this method successfully with the following:</p>
+
+<ul>
+<li><a href="https://www.google.com/maps">Goolge Maps</a></li>
+<li><a href="https://www.google.com/maps/views/home?gl=us">Google Views</a></li>
+</ul>
+
+<p>They both render beautifully on mobile devices.</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="//2015/03/27/moving-from-wordpress/">
+            Moving From WordPress
+            <small>27 Mar 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>
