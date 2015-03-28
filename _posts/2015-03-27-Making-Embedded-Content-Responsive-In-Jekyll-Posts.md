@@ -106,7 +106,7 @@ They both render beautifully on mobile devices.
 
 ## If you're using GitHub's Atom text editor
 
-Since I love Atom, I've created a custom Atom snippet (scoped to Markdown) for this particular fix. The following code should be added to your snippets.cson file in the Atom Config Folder. Cson stands for CoffeScript object notation. The snippet will be available when you are working in a Markdown document by typing in `yt` and then pressing the tab key. The `$1 and $2` in the code are just a placeholders that render as the insertion points. When you execute the snippet, the cursor will automatically appear there and you just have to fill in the appropriate information. You can traverse from one insertion point to the next by pressing the tab key.
+Since I love Atom, I've created a custom Atom snippet (scoped to Markdown) for this particular fix. The following code should be added to your snippets.cson file in the Atom Config Folder. Cson stands for CoffeScript object notation. The snippet will be available when you are working in a Markdown document by typing in `yt` and then pressing the tab key. The `$1 and $2` in the code are just placeholders that render as the insertion points. When you execute the snippet, the cursor will automatically appear there and you just have to fill in the appropriate information. You can traverse from one insertion point to the next by pressing the tab key.
 
 <div class="message">Please note you must include the language scope in the first line as illustrated in the code below. In this case it's scoped to GitHub Flavored Markdown, file extension: .gfm. However you may still save your Markdown file with a .md extension.</div>
 
