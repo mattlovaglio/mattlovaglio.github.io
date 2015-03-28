@@ -29,7 +29,7 @@ This is what you'll get on mobile devices:
 
 ---
 
-![example](/assets/images/example-issue.PNG)
+![example](/images/example-issue.PNG)
 
 ---
 
