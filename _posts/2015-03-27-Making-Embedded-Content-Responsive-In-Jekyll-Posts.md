@@ -103,3 +103,24 @@ Besides YouTube videos, you might consider using this technique with other types
 * [Google Views](https://www.google.com/maps/views/home?gl=us)
 
 They both render beautifully on mobile devices.
+
+## If you're using GitHub's Atom Text Editor...
+
+Since I love Atom, I've created a custom Atom snippet (scoped to Markdown) for this particular fix. The following code should be added to your snippets.cson file in the Atom Config Folder. Cson stands for CoffeScript object notation. The snippet will be available when you are working in a Markdown document by typing in `yt` and then pressing the tab key. The `$1` in the code is just a placeholder that renders as the insertion point. When you execute the snippet, the cursor will automatically appear there and you just have to fill in the appropriate URL.
+
+<div class="message">Please note you must include the language scope in the first line as illustrated in the code below. In this case it's scoped to GitHub Flavored Markdown, file extension: .gfm. However you may still save your Markdown file with a .md extension.</div>
+
+### The code for the custom Atom snippet:
+
+{% highlight coffeescript %}
+
+'.source.gfm':
+  'Embed YouTube In Mardown':
+    'prefix': 'yt'
+    'body': """<div class="video-container">
+      <iframe width="560" height="315" src="$1" frameborder="0" allowfullscreen></iframe>
+    </div>"""
+
+{% endhighlight %}
+
+If you have any questions please hit me up on twitter: [@mattlovaglio](https://twitter.com/mattlovaglio) or shoot me an [email](http://www.mattlovaglio.com/about). I'm still in the process of setting up a commenting system, but it's not quite ready yet. Sorry folks. 
