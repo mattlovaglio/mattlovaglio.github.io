@@ -13,9 +13,11 @@ On the occasion that you have to throw a line of HTML up in there, you should th
 
 Things like embedding a YouTube video will require some additional strategy. That is if you're using the iframe method and want the content to be responsive.
 
-If you embed a YouTube video in a Jekyll post, as per the official YouTube instructions, you might notice that on an iPhone (or any mobile device) your embedded content spills out of the viewport. See below.
+If you embed a YouTube video in a Jekyll post, as per the official YouTube instructions, you might notice that on an iPhone (or any mobile device) your embedded content spills out of the viewport.
 
-![iPhone screen with bad YouTube video embed](/images/example-issue.png)
+**See below:**
+
+![iPhone screen with bad YouTube video embed](/images/bad-example.png)
 
 Not desirable. So as you can deduce, this method is not responsive friendly.
 
@@ -96,6 +98,12 @@ Then, we style both that class and the nested iFrame as illustrated below.
 {% endhighlight %}
 
 You might not want to use `.video-container` as a class name, because it's extremely broad. It is possible that the framework or css you're using/authoring may already have this class name reserved for other things. Consider using something more appropriate to your taste.
+
+**Here's the results:**
+
+![iPhone screen with good YouTube video embed](/images/good-example.png)
+
+What a difference, no?
 
 ## Some additional embedded content
 
