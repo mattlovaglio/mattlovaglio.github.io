@@ -104,7 +104,7 @@ Besides YouTube videos, you might consider using this technique with other types
 
 They both render beautifully on mobile devices.
 
-## If you're using GitHub's Atom Text Editor...
+## If you're using GitHub's Atom text editor...
 
 Since I love Atom, I've created a custom Atom snippet (scoped to Markdown) for this particular fix. The following code should be added to your snippets.cson file in the Atom Config Folder. Cson stands for CoffeScript object notation. The snippet will be available when you are working in a Markdown document by typing in `yt` and then pressing the tab key. The `$1` in the code is just a placeholder that renders as the insertion point. When you execute the snippet, the cursor will automatically appear there and you just have to fill in the appropriate URL.
 
@@ -123,4 +123,4 @@ Since I love Atom, I've created a custom Atom snippet (scoped to Markdown) for t
 
 {% endhighlight %}
 
-If you have any questions please hit me up on twitter: [@mattlovaglio](https://twitter.com/mattlovaglio) or shoot me an [email](http://www.mattlovaglio.com/about). I'm still in the process of setting up a commenting system, but it's not quite ready yet. Sorry folks. 
+If you have any questions please hit me up on twitter: [@mattlovaglio](https://twitter.com/mattlovaglio) or shoot me an [email](http://www.mattlovaglio.com/about). I'm still in the process of setting up a commenting system, but it's not quite ready yet. Sorry folks.
