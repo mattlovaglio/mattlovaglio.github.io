@@ -17,7 +17,7 @@ Things like embedding a YouTube video or Google Map require some additional stra
 
 <div class="message">Some people will be ok with this method, and some people won't. If you have a more appropriate technique, share it in the comments or send me a msg. Keep in mind, if you're going to be using GitHub Pages & Jekyll, you are not allowed to use plugins.</div>
 
-If you embed a YouTube video in a Jekyll post, as per the official YouTube or Google Maps instructions, you might notice that on an iPhone (or any mobile device) your embedded content spills out of current viewport. Not desirable. So as you can deduce, this method is not responsive friendly.
+If you embed a YouTube video in a Jekyll post, as per the official YouTube instructions, you might notice that on an iPhone (or any mobile device) your embedded content spills out of current viewport. Not desirable. So as you can deduce, this method is not responsive friendly.
 
 **The default YouTube embed instructions might look something like this:**
 
@@ -76,3 +76,12 @@ Essentially what you have to do is put the iFrame embed code in a div with a cla
 {% endhighlight %}
 
 You might want to not use `.video-container` as a class name, because it is extremely broad. It is possible that the framework or css you are using/authoring may already have this class name reserved for other things. Consider using something more specific like: `.jekyll-youtube-module` or another custom class name with a higher level of specificity.
+
+## Some additional embedded content
+
+Besides YouTube videos, you might consider using this technique with other types of embedded content. I've tested this method successfully with the following:
+
+* [Goolge Maps](https://www.google.com/maps)
+* [Google Views](https://www.google.com/maps/views/home?gl=us)
+
+They both render beautifully on mobile devices.
