@@ -1,3 +1,8 @@
+---
+layout: post
+title: Making Embedded Content Responsive In Jekyll Posts
+---
+
 ## Embedded content in Jekyll posts acting wonky?
 
 If you are using Jekyll or thinking about using Jekyll for blogging you might want to consider how the content within Jekyll posts are rendered.
