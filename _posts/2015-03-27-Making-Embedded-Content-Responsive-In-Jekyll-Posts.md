@@ -55,6 +55,16 @@ Essentially what you have to do is put the iFrame embed code in a div with a cla
 
 *Once again, these code snippets were taken from the above articles and are being displayed here purely for your convenience. I wholeheartedly give credit to their respective authors and original publications.*
 
+### HTML example:
+
+{% highlight html %}
+
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>
+</div>
+
+{% endhighlight %}
+
 ### Class styles:
 
 {% highlight css %}
