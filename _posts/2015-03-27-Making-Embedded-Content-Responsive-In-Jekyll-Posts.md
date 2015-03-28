@@ -5,11 +5,9 @@ title: Making Embedded Content Responsive In Jekyll Posts
 
 ## Using YouTube content in Jekyll posts not mobile responsive
 
-If you're using Jekyll or thinking about using Jekyll for blogging you might want to consider how the content within Jekyll posts are rendered. Both for Markdown and HTML.
+If you're using Jekyll or thinking about using Jekyll for blogging you might want to consider how the content within Jekyll posts are rendered. For both Markdown and HTML.
 
-On the occasion that you have to throw a line of HTML up in there, you should think about it's default behavior and how your css will affect it's presentation.
-
-Currently, throwing a YouTube iframe in the mix doesn't bode well for mobile devices.
+On the occasion that you have to throw a line of HTML up in there, you should think about it's default behavior and how your css will affect it's presentation. Currently, throwing a YouTube iframe in the mix doesn't bode well for mobile devices.
 
 ## Default behavior
 
