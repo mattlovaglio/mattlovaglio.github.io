@@ -15,6 +15,8 @@ Things like embedding a YouTube video will require some additional strategy. Tha
 
 If you embed a YouTube video in a Jekyll post, as per the official YouTube instructions, you might notice that on an iPhone (or any mobile device) your embedded content spills out of the viewport. Not desirable. So as you can deduce, this method is not responsive friendly.
 
+![Test Image](/images/example-issue.png)
+
 **The default YouTube embed instructions might look something like this:**
 
 YouTube video being referenced here:
