@@ -13,9 +13,11 @@ On the occasion that you have to throw a line of HTML up in there, you should th
 
 Things like embedding a YouTube video will require some additional strategy. That is if you're using the iframe method and want the content to be responsive.
 
-If you embed a YouTube video in a Jekyll post, as per the official YouTube instructions, you might notice that on an iPhone (or any mobile device) your embedded content spills out of the viewport. Not desirable. So as you can deduce, this method is not responsive friendly.
+If you embed a YouTube video in a Jekyll post, as per the official YouTube instructions, you might notice that on an iPhone (or any mobile device) your embedded content spills out of the viewport. See below.
 
 ![Test Image](/images/example-issue.png)
+
+Not desirable. So as you can deduce, this method is not responsive friendly.
 
 **The default YouTube embed instructions might look something like this:**
 
