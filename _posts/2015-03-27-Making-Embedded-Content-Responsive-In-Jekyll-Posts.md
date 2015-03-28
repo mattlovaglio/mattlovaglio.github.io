@@ -21,7 +21,7 @@ If you embed a YouTube video in a Jekyll post, as per the official YouTube instr
 
 **The default YouTube embed instructions might look something like this:**
 
-YouTube video being referenced here: 
+YouTube video being referenced here:
 
 [DevTips: Getting Started With Jekyll, The Static Site Generator](https://www.youtube.com/watch?v=iWowJBRMtpc)
 
