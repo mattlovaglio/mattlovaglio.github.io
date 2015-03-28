@@ -21,17 +21,17 @@ If you embed a YouTube video in a Jekyll post, as per the official YouTube instr
 
 **The default YouTube embed instructions might look something like this:**
 
-YouTube video being referenced here: [DevTips: Getting Started With Jekyll, The Static Site Generator](https://www.youtube.com/watch?v=iWowJBRMtpc)
+YouTube video being referenced here: 
 
-Basic YouTube embed link for this video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>`
+[DevTips: Getting Started With Jekyll, The Static Site Generator](https://www.youtube.com/watch?v=iWowJBRMtpc)
 
-This is what you'll get on mobile devices:
+Basic YouTube embed link for this video:
 
----
+{% highlight html %}
 
-![example](/images/example-issue.PNG)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>
 
----
+{% endhighlight %}
 
 This method doesn't work well.
 

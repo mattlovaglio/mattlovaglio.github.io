@@ -4,7 +4,7 @@
  <title>Matt Lovaglio</title>
  <link href="http://www.mattlovaglio.com/atom.xml" rel="self"/>
  <link href="http://www.mattlovaglio.com/"/>
- <updated>2015-03-27T22:45:07-04:00</updated>
+ <updated>2015-03-27T22:48:03-04:00</updated>
  <id>http://www.mattlovaglio.com</id>
  <author>
    <name>Matt Lovaglio</name>
@@ -83,17 +83,13 @@
 
 &lt;p&gt;&lt;strong&gt;The default YouTube embed instructions might look something like this:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;YouTube video being referenced here: &lt;a href=&quot;https://www.youtube.com/watch?v=iWowJBRMtpc&quot;&gt;DevTips: Getting Started With Jekyll, The Static Site Generator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;YouTube video being referenced here: &lt;/p&gt;
 
-&lt;p&gt;Basic YouTube embed link for this video: &lt;code&gt;&amp;lt;iframe width=&amp;quot;560&amp;quot; height=&amp;quot;315&amp;quot; src=&amp;quot;https://www.youtube.com/embed/iWowJBRMtpc&amp;quot; frameborder=&amp;quot;0&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iWowJBRMtpc&quot;&gt;DevTips: Getting Started With Jekyll, The Static Site Generator&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;This is what you&amp;#39;ll get on mobile devices:&lt;/p&gt;
+&lt;p&gt;Basic YouTube embed link for this video:&lt;/p&gt;
 
-&lt;hr&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/example-issue.PNG&quot; alt=&quot;example&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;560&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;315&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;https://www.youtube.com/embed/iWowJBRMtpc&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;0&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allowfullscreen&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;This method doesn&amp;#39;t work well.&lt;/p&gt;
 
