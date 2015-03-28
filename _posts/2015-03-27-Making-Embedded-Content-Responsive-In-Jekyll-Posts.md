@@ -115,7 +115,7 @@ Since I love Atom, I've created a custom Atom snippet (scoped to Markdown) for t
 {% highlight coffeescript %}
 
 '.source.gfm':
-  'Embed YouTube In Mardown':
+  'Embed YouTube In Markdown':
     'prefix': 'yt'
     'body': """<div class="$1">
       <iframe width="560" height="315" src="$2" frameborder="0" allowfullscreen></iframe>
