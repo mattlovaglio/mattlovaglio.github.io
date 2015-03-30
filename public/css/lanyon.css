@@ -595,9 +595,3 @@ a.pagination-item:hover {
   line-height: 100px;
   text-decoration: none;
 }
-
-.preview-button a:hover {
-  color: #ffffff;
-  background-color: #57407B;
-  border: 2px solid #57407B;
-}
