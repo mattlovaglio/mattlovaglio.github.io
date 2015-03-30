@@ -582,3 +582,12 @@ a.pagination-item:hover {
     width: 100%;
     height: 100%;
 }
+
+/* Styles for "Read More" button on post index page, aka the post previews */
+
+.preview-button {
+  padding: 10px;
+  color: #57407B;
+  border: 2px solid #57407B;
+  line-height: 80px;
+}

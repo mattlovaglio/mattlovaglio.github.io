@@ -102,12 +102,12 @@ h1, h2, h3, h4, h5, h6 {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #57407B;
   letter-spacing: 0px;
   text-transform: uppercase;
 }
 .masthead-title a {
-  color: #505050;
+  color: #57407B;
 }
 .masthead-title small {
   font-size: 65%;
@@ -307,12 +307,12 @@ a.sidebar-nav-item:focus {
 /* Blog post or page title */
 
 .page-title {
-  color: #303030;
+  color: #736198;
 }
 
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #736198;
 }
 
 .page-title,
@@ -581,4 +581,13 @@ a.pagination-item:hover {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* Styles for "Read More" button on post index page, aka the post previews */
+
+.preview-button {
+  padding: 10px;
+  color: #57407B;
+  border: 2px solid #57407B;
+  line-height: 80px;
 }

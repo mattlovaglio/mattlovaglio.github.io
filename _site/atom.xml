@@ -4,7 +4,7 @@
  <title>Matt Lovaglio</title>
  <link href="http://www.mattlovaglio.com/atom.xml" rel="self"/>
  <link href="http://www.mattlovaglio.com/"/>
- <updated>2015-03-27T22:48:03-04:00</updated>
+ <updated>2015-03-30T15:08:51-04:00</updated>
  <id>http://www.mattlovaglio.com</id>
  <author>
    <name>Matt Lovaglio</name>
@@ -65,25 +65,27 @@
    <link href="http://www.mattlovaglio.com/2015/03/27/Making-Embedded-Content-Responsive-In-Jekyll-Posts/"/>
    <updated>2015-03-27T00:00:00-04:00</updated>
    <id>http://www.mattlovaglio.com/2015/03/27/Making-Embedded-Content-Responsive-In-Jekyll-Posts</id>
-   <content type="html">&lt;h2&gt;Embedded content in Jekyll posts acting wonky?&lt;/h2&gt;
+   <content type="html">&lt;h2&gt;Using YouTube content in Jekyll posts not mobile responsive&lt;/h2&gt;
 
-&lt;p&gt;If you are using Jekyll or thinking about using Jekyll for blogging you might want to consider how the content within Jekyll posts are rendered.&lt;/p&gt;
+&lt;p&gt;If you&amp;#39;re using Jekyll or thinking about using Jekyll for blogging you might want to consider how the content within Jekyll posts are rendered. For both Markdown and HTML.&lt;/p&gt;
 
-&lt;p&gt;Some of the benefits of traditional content management systems are that they tend to have a GUI (graphical user interface) back-end and allow you to write and insert rich media much like you would a modern word processor. However a caveat of having this kind of functionality is you subscribe to the ways (or restrictions) of your specific CMS.&lt;/p&gt;
+&lt;p&gt;On the occasion that you have to throw a line of HTML up in there, you should think about it&amp;#39;s default behavior and how your css will affect it&amp;#39;s presentation. Currently, throwing a YouTube iframe in the mix doesn&amp;#39;t bode well for mobile devices.&lt;/p&gt;
 
-&lt;h2&gt;Jekyll posts&lt;/h2&gt;
+&lt;h2&gt;Default behavior&lt;/h2&gt;
 
-&lt;p&gt;Blogging with Jekyll is awesome, but remember you write posts like you would write HTML &lt;em&gt;even though you&amp;#39;re using Markdown&lt;/em&gt;. Which means that you must sometimes consider how your content will be rendered, as if you were hand coding a blog post.&lt;/p&gt;
+&lt;p&gt;Things like embedding a YouTube video will require some additional strategy. That&amp;#39;s if you&amp;#39;re using the iframe method and want the content to be responsive.&lt;/p&gt;
 
-&lt;p&gt;Things like embedding a YouTube video or Google Map require some additional strategy. That is if you&amp;#39;re using the iFrame method and want the content to be responsive.&lt;/p&gt;
+&lt;p&gt;If you embed a YouTube video in a Jekyll post, as per the official YouTube instructions, you might notice that on an iPhone (or any mobile device) your embedded content spills out of the viewport.&lt;/p&gt;
 
-&lt;div class=&quot;message&quot;&gt;Some people will be ok with this method, and some people won&#39;t. If you have a more appropriate technique, share it in the comments or send me a msg. Keep in mind, if you&#39;re going to be using GitHub Pages &amp; Jekyll, you are not allowed to use plugins.&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;See below:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;If you embed a YouTube video in a Jekyll post, as per the official YouTube instructions, you might notice that on an iPhone (or any mobile device) your embedded content spills out of current viewport. Not desirable. So as you can deduce, this method is not responsive friendly.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/bad-example.png&quot; alt=&quot;iPhone screen with bad YouTube video embed&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Not desirable. So as you can deduce, this method is not responsive friendly.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The default YouTube embed instructions might look something like this:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;YouTube video being referenced here: &lt;/p&gt;
+&lt;p&gt;YouTube video being referenced here:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iWowJBRMtpc&quot;&gt;DevTips: Getting Started With Jekyll, The Static Site Generator&lt;/a&gt;&lt;/p&gt;
 
@@ -109,9 +111,17 @@
 
 &lt;h2&gt;Basic method&lt;/h2&gt;
 
-&lt;p&gt;Essentially what you have to do is put the iFrame embed code in a div with a class of &amp;quot;video-container&amp;quot; (or custom class name that would be appropriate for your project). Then style both that class and the nested iFrame as illustrated below.&lt;/p&gt;
+&lt;p&gt;Essentially what you have to do is put the iFrame embed code in a div with a custom class name that would be appropriate for your project. In this case we are using &lt;code&gt;.video-container&lt;/code&gt; as the class name simply because that&amp;#39;s what was used in the example.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Once again, these code snippets were taken from the above articles and are being displayed here purely for your convenience. I wholeheartedly give credit to their respective authors and original publications.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Then, we style both that class and the nested iFrame as illustrated below.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Once again, these code snippets were taken from the above articles and are being displayed here purely for your convenience.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3&gt;HTML example:&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;video-container&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;560&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;315&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;https://www.youtube.com/embed/iWowJBRMtpc&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;0&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allowfullscreen&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3&gt;Class styles:&lt;/h3&gt;
 
@@ -123,7 +133,7 @@
     &lt;span class=&quot;k&quot;&gt;overflow&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h3&gt;Nested iFrame styles:&lt;/h3&gt;
+&lt;h3&gt;Nested iframe styles:&lt;/h3&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.video-container&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;iframe&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;absolute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -133,7 +143,13 @@
     &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;You might want to not use &lt;code&gt;.video-container&lt;/code&gt; as a class name, because it is extremely broad. It is possible that the framework or css you are using/authoring may already have this class name reserved for other things. Consider using something more specific like: &lt;code&gt;.jekyll-youtube-module&lt;/code&gt; or another custom class name with a higher level of specificity.&lt;/p&gt;
+&lt;p&gt;You might not want to use &lt;code&gt;.video-container&lt;/code&gt; as a class name, because it&amp;#39;s extremely broad. It&amp;#39;s possible that the framework or css you&amp;#39;re using may already have this class name reserved for other things. Consider using something more appropriate to your taste.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here&amp;#39;s the results:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/good-example.png&quot; alt=&quot;iPhone screen with good YouTube video embed&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;What a difference, no?&lt;/p&gt;
 
 &lt;h2&gt;Some additional embedded content&lt;/h2&gt;
 
@@ -145,6 +161,25 @@
 &lt;/ul&gt;
 
 &lt;p&gt;They both render beautifully on mobile devices.&lt;/p&gt;
+
+&lt;h2&gt;If you&amp;#39;re using GitHub&amp;#39;s Atom text editor&lt;/h2&gt;
+
+&lt;p&gt;Since I love Atom, I&amp;#39;ve created a custom Atom snippet (scoped to Markdown) for this particular fix. The following code should be added to your snippets.cson file in the Atom Config Folder. Cson stands for CoffeScript object notation.&lt;/p&gt;
+
+&lt;p&gt;The snippet will be available when you are working in a Markdown document by typing in &lt;code&gt;yt&lt;/code&gt; and then pressing the tab key. The &lt;code&gt;$1 and $2&lt;/code&gt; in the code are just placeholders that render as the insertion points. When you execute the snippet, the cursor will automatically appear there and you just have to fill in the appropriate information. You can traverse from one insertion point to the next by pressing the tab key.&lt;/p&gt;
+
+&lt;div class=&quot;message&quot;&gt;Please note you must include the language scope in the first line as illustrated in the code below. In this case it&#39;s scoped to GitHub Flavored Markdown, file extension: .gfm. However you may still save your Markdown file with a .md extension.&lt;/div&gt;
+
+&lt;h3&gt;The code for the custom Atom snippet:&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-coffeescript&quot; data-lang=&quot;coffeescript&quot;&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;.source.gfm&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&amp;#39;Embed YouTube In Markdown&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&amp;#39;prefix&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;yt&amp;#39;&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&amp;#39;body&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&amp;quot;&amp;lt;div class=&amp;quot;$1&amp;quot;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;      &amp;lt;iframe width=&amp;quot;560&amp;quot; height=&amp;quot;315&amp;quot; src=&amp;quot;$2&amp;quot; frameborder=&amp;quot;0&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;    &amp;lt;/div&amp;gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you have any questions please hit me up on twitter: &lt;a href=&quot;https://twitter.com/mattlovaglio&quot;&gt;@mattlovaglio&lt;/a&gt; or shoot me an &lt;a href=&quot;http://www.mattlovaglio.com/about&quot;&gt;email&lt;/a&gt;. I&amp;#39;m still in the process of setting up a commenting system, but it&amp;#39;s not quite ready yet. Sorry folks.&lt;/p&gt;
 </content>
  </entry>
  
