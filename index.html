@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="posts">
-  {% for post in paginator.posts reversed%}
+  {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url }}">
@@ -14,13 +14,7 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    <!--{{ post.content }}-->
-    {{ post.content | truncatewords: 40 }}
-
-    <br>
-
-    <a class="preview-button" href="{{ post.url }}">Read More</a>
-
+    {{ post.content }}
   </div>
   {% endfor %}
 </div>
