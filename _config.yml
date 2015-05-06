@@ -8,14 +8,14 @@ relative_permalinks: true
 
 # Setup
 title:            Matt Lovaglio
-tagline:          'A Jekyll theme'
+tagline:          'Articles, Theories & Ramblings'
 description:      'A Personal Blog.'
-url:              http://hyde.getpoole.com
+url:              http://www.mattlovaglio.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Matt Lovaglio'
+  url:            https://twitter.com/mattlovaglio
 
 paginate:         5
 

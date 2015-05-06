@@ -53,37 +53,35 @@ html {
  * out above content in mobile and later moves to the side with wider viewports.
  */
 
-.sidebar {
-  text-align: center;
-  padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
-}
-@media (min-width: 48em) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-  }
-}
+ .sidebar {
+   text-align: center;
+   padding: 2rem 1rem;
+   color: rgba(255,255,255,.5);
+   background-color: #202020;
+ }
+ @media (min-width: 48em) {
+   .sidebar {
+     position: fixed;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     width: 18rem;
+     text-align: left;
+   }
+ }
 
-/* Sidebar links */
-.sidebar a {
-  color: #fff;
-}
+ /* Sidebar links */
+ .sidebar a {
+   color: #fff;
+ }
 
-/* About section */
-.sidebar-about h1 {
-  color: #fff;
-  margin-top: 0;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-size: 1.7rem;
-  text-transform: uppercase;
-  letter-spacing: .1rem;
-}
+ /* About section */
+ .sidebar-about h1 {
+   color: #fff;
+   margin-top: 0;
+   font-family: "Abril Fatface", serif;
+   font-size: 3.25rem;
+ }
 
 /* Sidebar nav */
 .sidebar-nav {
