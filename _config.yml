@@ -1,9 +1,7 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
 # Permalinks
-permalink:        pretty
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 relative_permalinks: true
 
 # Setup
@@ -13,14 +11,20 @@ description:      'A Personal Blog.'
 url:              http://www.mattlovaglio.com
 baseurl:          /
 
-author:
-  name:           'Matt Lovaglio'
-  url:            https://twitter.com/mattlovaglio
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
 
-paginate:         5
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
 # Custom vars
-version:          2.1.0
-
+version:             1.0.0
 github:
-  repo:           https://github.com/poole/hyde
+  repo:              https://github.com/poole/poole
