@@ -5,26 +5,18 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:            Matt Lovaglio
-tagline:          'Articles, Theories & Ramblings'
-description:      'A Personal Blog.'
-url:              http://www.mattlovaglio.com
-baseurl:          /
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+title:               Matt Lovaglio
+tagline:             'Articles, Theories & Ramblings'
+description:         'A Personal Blog.'
+url:                 http://www.mattlovaglio.com
+baseurl:             '/'
+paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Matt Lovaglio
+  url:               https://twitter.com/mattlovaglio
+  email:             mattlovaglio@gmail.com
 
 # Custom vars
 version:             1.0.0
-github:
-  repo:              https://github.com/poole/poole
