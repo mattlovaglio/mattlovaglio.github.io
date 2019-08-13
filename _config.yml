@@ -13,10 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Matt Lovaglio | Technical SEO
+title: Matt Lovaglio Technical SEO
 email: hello@mattlovaglio.com
 description: >- # this means to ignore newlines until "baseurl:"
   Matt Lovaglio is a data-driven Technical SEO. He writes content about SEO and advises clients on technical SEO strategy.
+# you have to change the template.html in the jekyll-seo-tag gem itself, using {{ page.title | default: site.title }} as a replacement for what the plugin has within the html title tag, otherwise your (site) description (from above) gets appended to the site title
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mattlovaglio
@@ -27,6 +28,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-watch
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
